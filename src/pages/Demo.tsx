@@ -115,7 +115,7 @@ export default function Demo() {
         </div>
 
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-          <button style={{ background: "linear-gradient(135deg,#1a5c80,#4db8c8)", border: "none", borderRadius: 8, padding: "8px 18px", color: "#fff", fontWeight: 600, fontSize: 13, cursor: "pointer", whiteSpace: "nowrap" }}>Get Started</button>
+          {/* <button style={{ background: "linear-gradient(135deg,#1a5c80,#4db8c8)", border: "none", borderRadius: 8, padding: "8px 18px", color: "#fff", fontWeight: 600, fontSize: 13, cursor: "pointer", whiteSpace: "nowrap" }}>Get Started</button> */}
           {/* Hamburger */}
           <button className="hamburger" onClick={() => setMenuOpen(true)} style={{ background: "none", border: "1px solid rgba(77,184,200,0.3)", borderRadius: 8, padding: "6px 10px", color: "#4db8c8", cursor: "pointer", fontSize: 18, display: "none", alignItems: "center" }}>☰</button>
         </div>
