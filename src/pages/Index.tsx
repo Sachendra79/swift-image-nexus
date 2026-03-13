@@ -4,12 +4,12 @@ import ProblemStatement from "@/components/ProblemStatement";
 import ResearchObjectives from "@/components/ResearchObjectives";
 import ScopeSection from "@/components/ScopeSection";
 import Footer from "@/components/Footer";
+import Demo from "@/pages/Demo"
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
-      <HeroSection />
+     <Demo/>
       <ProblemStatement />
       <ResearchObjectives />
       <ScopeSection />

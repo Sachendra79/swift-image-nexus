@@ -1,8 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, Shield, Clock } from "lucide-react";
+import { useNavigate } from "react-router-dom"
 import heroImage from "@/assets/hero-medical-imaging.jpg";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
@@ -33,9 +35,14 @@ const HeroSection = () => {
               Explore Research
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="outline" size="lg" className="text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary">
-              View Demo
-            </Button>
+            <Button
+variant="outline"
+size="lg"
+className="text-primary-foreground border-primary-foreground hover:bg-primary-foreground hover:text-primary"
+onClick={() => navigate("/demo")}
+>
+View Demo
+</Button>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
