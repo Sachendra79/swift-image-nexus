@@ -43,11 +43,11 @@ const Footer = () => {
             <div className="space-y-4 text-primary-foreground/80">
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-accent" />
-                <span>research@medimaging.edu</span>
+                <span>sachendra2213095@medimaging.edu</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-accent" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 7983280059</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-accent" />
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-primary-foreground/20 mt-12 pt-8 text-center text-primary-foreground/60">
-          <p>&copy; 2024 MedImaging Research. All rights reserved. | Healthcare Innovation for Emergency Medicine</p>
+          <p>&copy; 2025 MedImaging Research. All rights reserved. | Healthcare Innovation for Emergency Medicine</p>
         </div>
       </div>
     </footer>
